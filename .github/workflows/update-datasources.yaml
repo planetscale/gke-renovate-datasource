@@ -1,0 +1,40 @@
+name: update-datasources
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '22 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-all-channels:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          persist-credentials: false
+
+      - name: setup golang
+        uses: actions/setup-go@v4
+        with:
+          go-version-file: go.mod
+          cache: false
+
+      - name: update datasource files
+        run: ./generate.sh
+
+      - name: commit changes
+        if: github.event_name != 'push'
+        uses: planetscale/ghcommit-action@d4176bfacef926cc2db351eab20398dfc2f593b5 # v0.2.0
+        with:
+          commit_message: "🤖 Re-generate GKE datasource files"
+          repo: ${{ github.repository }}
+          branch: main
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
