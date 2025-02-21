@@ -28,5 +28,6 @@ Add to your renovate.json:
   }
 }
 ```
+
 <!-- refs -->
 [renovate-custom-datasource]: https://docs.renovatebot.com/modules/datasource/custom/
