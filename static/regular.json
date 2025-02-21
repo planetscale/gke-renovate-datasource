@@ -1,0 +1,388 @@
+{
+  "releases": [
+    {
+      "version": "1.29.13-gke.1109000",
+      "releaseTimestamp": "2025-02-18T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.9-gke.1127000",
+      "releaseTimestamp": "2025-02-18T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.5-gke.1169000",
+      "releaseTimestamp": "2025-02-18T00:00:00-08:00"
+    },
+    {
+      "version": "1.32.1-gke.1357001",
+      "releaseTimestamp": "2025-02-18T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.13-gke.1038000",
+      "releaseTimestamp": "2025-02-11T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.9-gke.1046000",
+      "releaseTimestamp": "2025-02-11T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.5-gke.1068000",
+      "releaseTimestamp": "2025-02-11T00:00:00-08:00"
+    },
+    {
+      "version": "1.32.1-gke.1200003",
+      "releaseTimestamp": "2025-02-11T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1641000",
+      "releaseTimestamp": "2025-02-06T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.13-gke.1006000",
+      "releaseTimestamp": "2025-02-06T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.9-gke.1009000",
+      "releaseTimestamp": "2025-02-06T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.5-gke.1023000",
+      "releaseTimestamp": "2025-02-06T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1612000",
+      "releaseTimestamp": "2025-01-29T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.12-gke.1143001",
+      "releaseTimestamp": "2025-01-29T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.12-gke.1270000",
+      "releaseTimestamp": "2025-01-29T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.8-gke.1162001",
+      "releaseTimestamp": "2025-01-29T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.8-gke.1261000",
+      "releaseTimestamp": "2025-01-29T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.4-gke.1372000",
+      "releaseTimestamp": "2025-01-29T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1503000",
+      "releaseTimestamp": "2025-01-23T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.12-gke.1143000",
+      "releaseTimestamp": "2025-01-23T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.8-gke.1162000",
+      "releaseTimestamp": "2025-01-23T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.4-gke.1256000",
+      "releaseTimestamp": "2025-01-23T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1480000",
+      "releaseTimestamp": "2025-01-14T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.12-gke.1120000",
+      "releaseTimestamp": "2025-01-14T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.8-gke.1128000",
+      "releaseTimestamp": "2025-01-14T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.4-gke.1183000",
+      "releaseTimestamp": "2025-01-14T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1362000",
+      "releaseTimestamp": "2025-01-07T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1435000",
+      "releaseTimestamp": "2025-01-07T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.12-gke.1055000",
+      "releaseTimestamp": "2025-01-07T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.7-gke.1084000",
+      "releaseTimestamp": "2025-01-07T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.8-gke.1051000",
+      "releaseTimestamp": "2025-01-07T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.3-gke.1162000",
+      "releaseTimestamp": "2025-01-07T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1342000",
+      "releaseTimestamp": "2024-12-12T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.10-gke.1280000",
+      "releaseTimestamp": "2024-12-12T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.6-gke.1596000",
+      "releaseTimestamp": "2024-12-12T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1080000",
+      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1159000",
+      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.10-gke.1155000",
+      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.10-gke.1227000",
+      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.5-gke.1713000",
+      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.6-gke.1125000",
+      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.14-gke.1376000",
+      "releaseTimestamp": "2024-11-13T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.15-gke.1020000",
+      "releaseTimestamp": "2024-11-13T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.9-gke.1541000",
+      "releaseTimestamp": "2024-11-13T00:00:00-08:00"
+    },
+    {
+      "version": "1.29.10-gke.1054000",
+      "releaseTimestamp": "2024-11-13T00:00:00-08:00"
+    },
+    {
+      "version": "1.30.5-gke.1699000",
+      "releaseTimestamp": "2024-11-13T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.1-gke.2008000",
+      "releaseTimestamp": "2024-11-13T00:00:00-08:00"
+    },
+    {
+      "version": "1.31.1-gke.2105000",
+      "releaseTimestamp": "2024-11-13T00:00:00-08:00"
+    },
+    {
+      "version": "1.28.14-gke.1340000",
+      "releaseTimestamp": "2024-10-30T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.9-gke.1496000",
+      "releaseTimestamp": "2024-10-30T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.5-gke.1443001",
+      "releaseTimestamp": "2024-10-30T00:00:00-07:00"
+    },
+    {
+      "version": "1.31.1-gke.1846000",
+      "releaseTimestamp": "2024-10-30T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.14-gke.1217000",
+      "releaseTimestamp": "2024-10-25T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.9-gke.1341000",
+      "releaseTimestamp": "2024-10-25T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.5-gke.1014003",
+      "releaseTimestamp": "2024-10-25T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.5-gke.1355000",
+      "releaseTimestamp": "2024-10-25T00:00:00-07:00"
+    },
+    {
+      "version": "1.31.1-gke.1678000",
+      "releaseTimestamp": "2024-10-25T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.14-gke.1099000",
+      "releaseTimestamp": "2024-10-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.9-gke.1177000",
+      "releaseTimestamp": "2024-10-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1373000",
+      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.14-gke.1004000",
+      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.8-gke.1278000",
+      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.4-gke.1348001",
+      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.5-gke.1014001",
+      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1342000",
+      "releaseTimestamp": "2024-09-26T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.13-gke.1119000",
+      "releaseTimestamp": "2024-09-26T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.8-gke.1211000",
+      "releaseTimestamp": "2024-09-26T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.4-gke.1348000",
+      "releaseTimestamp": "2024-09-26T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1287000",
+      "releaseTimestamp": "2024-09-19T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.13-gke.1049000",
+      "releaseTimestamp": "2024-09-19T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.8-gke.1096000",
+      "releaseTimestamp": "2024-09-19T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.3-gke.1969001",
+      "releaseTimestamp": "2024-09-19T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1258000",
+      "releaseTimestamp": "2024-09-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.13-gke.1024000",
+      "releaseTimestamp": "2024-09-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.8-gke.1057000",
+      "releaseTimestamp": "2024-09-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.3-gke.1969001",
+      "releaseTimestamp": "2024-09-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1148001",
+      "releaseTimestamp": "2024-09-06T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.13-gke.1006000",
+      "releaseTimestamp": "2024-09-06T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.8-gke.1031000",
+      "releaseTimestamp": "2024-09-06T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.3-gke.1969000",
+      "releaseTimestamp": "2024-09-06T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1082000",
+      "releaseTimestamp": "2024-08-28T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1148000",
+      "releaseTimestamp": "2024-08-28T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.12-gke.1179000",
+      "releaseTimestamp": "2024-08-28T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.7-gke.1274000",
+      "releaseTimestamp": "2024-08-28T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.3-gke.1639000",
+      "releaseTimestamp": "2024-08-28T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1051000",
+      "releaseTimestamp": "2024-08-14T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.12-gke.1052000",
+      "releaseTimestamp": "2024-08-14T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.7-gke.1104000",
+      "releaseTimestamp": "2024-08-14T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.3-gke.1225000",
+      "releaseTimestamp": "2024-08-14T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.16-gke.1008000",
+      "releaseTimestamp": "2024-08-07T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.11-gke.1315000",
+      "releaseTimestamp": "2024-08-07T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.7-gke.1008000",
+      "releaseTimestamp": "2024-08-07T00:00:00-07:00"
+    },
+    {
+      "version": "1.27.15-gke.1252000",
+      "releaseTimestamp": "2024-07-31T00:00:00-07:00"
+    },
+    {
+      "version": "1.28.11-gke.1260000",
+      "releaseTimestamp": "2024-07-31T00:00:00-07:00"
+    },
+    {
+      "version": "1.29.6-gke.1326000",
+      "releaseTimestamp": "2024-07-31T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.2-gke.1587003",
+      "releaseTimestamp": "2024-07-31T00:00:00-07:00"
+    }
+  ]
+}
