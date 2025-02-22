@@ -29,6 +29,9 @@ jobs:
       - name: update datasource files
         run: ./generate.sh
 
+      - name: git diff
+        run: git diff
+
       - name: commit changes
         if: github.event_name != 'push'
         uses: planetscale/ghcommit-action@d4176bfacef926cc2db351eab20398dfc2f593b5 # v0.2.0
