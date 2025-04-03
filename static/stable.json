@@ -283,18 +283,6 @@
     {
       "version": "1.27.16-gke.1051001",
       "releaseTimestamp": "2024-09-11T00:00:00-07:00"
-    },
-    {
-      "version": "1.27.16-gke.1008000",
-      "releaseTimestamp": "2024-08-28T00:00:00-07:00"
-    },
-    {
-      "version": "1.28.12-gke.1052000",
-      "releaseTimestamp": "2024-08-28T00:00:00-07:00"
-    },
-    {
-      "version": "1.29.7-gke.1104000",
-      "releaseTimestamp": "2024-08-28T00:00:00-07:00"
     }
   ]
 }
