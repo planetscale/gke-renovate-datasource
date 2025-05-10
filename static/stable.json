@@ -231,22 +231,6 @@
     {
       "version": "1.30.4-gke.1348001",
       "releaseTimestamp": "2024-10-11T00:00:00-07:00"
-    },
-    {
-      "version": "1.27.16-gke.1287000",
-      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
-    },
-    {
-      "version": "1.28.13-gke.1049000",
-      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
-    },
-    {
-      "version": "1.29.8-gke.1096000",
-      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
-    },
-    {
-      "version": "1.30.3-gke.1969002",
-      "releaseTimestamp": "2024-10-03T00:00:00-07:00"
     }
   ]
 }
