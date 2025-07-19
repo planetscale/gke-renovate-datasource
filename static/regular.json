@@ -1,6 +1,38 @@
 {
   "releases": [
     {
+      "version": "1.30.12-gke.1333000",
+      "releaseTimestamp": "2025-07-16T00:00:00-07:00"
+    },
+    {
+      "version": "1.31.10-gke.1021000",
+      "releaseTimestamp": "2025-07-16T00:00:00-07:00"
+    },
+    {
+      "version": "1.32.6-gke.1013000",
+      "releaseTimestamp": "2025-07-16T00:00:00-07:00"
+    },
+    {
+      "version": "1.33.2-gke.1111000",
+      "releaseTimestamp": "2025-07-16T00:00:00-07:00"
+    },
+    {
+      "version": "1.30.12-gke.1320000",
+      "releaseTimestamp": "2025-07-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.31.9-gke.1287000",
+      "releaseTimestamp": "2025-07-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.32.4-gke.1767000",
+      "releaseTimestamp": "2025-07-11T00:00:00-07:00"
+    },
+    {
+      "version": "1.33.2-gke.1043000",
+      "releaseTimestamp": "2025-07-11T00:00:00-07:00"
+    },
+    {
       "version": "1.30.12-gke.1279000",
       "releaseTimestamp": "2025-07-02T00:00:00-07:00"
     },
@@ -323,42 +355,6 @@
     {
       "version": "1.31.3-gke.1162000",
       "releaseTimestamp": "2025-01-07T00:00:00-08:00"
-    },
-    {
-      "version": "1.28.15-gke.1342000",
-      "releaseTimestamp": "2024-12-12T00:00:00-08:00"
-    },
-    {
-      "version": "1.29.10-gke.1280000",
-      "releaseTimestamp": "2024-12-12T00:00:00-08:00"
-    },
-    {
-      "version": "1.30.6-gke.1596000",
-      "releaseTimestamp": "2024-12-12T00:00:00-08:00"
-    },
-    {
-      "version": "1.28.15-gke.1080000",
-      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
-    },
-    {
-      "version": "1.28.15-gke.1159000",
-      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
-    },
-    {
-      "version": "1.29.10-gke.1155000",
-      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
-    },
-    {
-      "version": "1.29.10-gke.1227000",
-      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
-    },
-    {
-      "version": "1.30.5-gke.1713000",
-      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
-    },
-    {
-      "version": "1.30.6-gke.1125000",
-      "releaseTimestamp": "2024-12-10T00:00:00-08:00"
     }
   ]
 }
