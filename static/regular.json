@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "1.30.14-gke.1036000",
+      "releaseTimestamp": "2025-08-27T00:00:00-07:00"
+    },
+    {
+      "version": "1.31.11-gke.1101000",
+      "releaseTimestamp": "2025-08-27T00:00:00-07:00"
+    },
+    {
+      "version": "1.32.7-gke.1079000",
+      "releaseTimestamp": "2025-08-27T00:00:00-07:00"
+    },
+    {
       "version": "1.30.14-gke.1011000",
       "releaseTimestamp": "2025-08-21T00:00:00-07:00"
     },
