@@ -267,14 +267,6 @@
     {
       "version": "1.31.8-gke.1113000",
       "releaseTimestamp": "2025-06-12T00:00:00-07:00"
-    },
-    {
-      "version": "1.30.12-gke.1033000",
-      "releaseTimestamp": "2025-06-05T00:00:00-07:00"
-    },
-    {
-      "version": "1.31.8-gke.1045000",
-      "releaseTimestamp": "2025-06-05T00:00:00-07:00"
     }
   ]
 }
