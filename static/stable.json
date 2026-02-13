@@ -1,6 +1,14 @@
 {
   "releases": [
     {
+      "version": "1.32.11-gke.1038000",
+      "releaseTimestamp": "2026-02-11T00:00:00-08:00"
+    },
+    {
+      "version": "1.33.5-gke.2172001",
+      "releaseTimestamp": "2026-02-11T00:00:00-08:00"
+    },
+    {
       "version": "1.32.9-gke.1734000",
       "releaseTimestamp": "2026-02-04T00:00:00-08:00"
     },
@@ -259,18 +267,6 @@
     {
       "version": "1.33.2-gke.1043000",
       "releaseTimestamp": "2025-07-25T00:00:00-07:00"
-    },
-    {
-      "version": "1.30.12-gke.1279000",
-      "releaseTimestamp": "2025-07-16T00:00:00-07:00"
-    },
-    {
-      "version": "1.31.9-gke.1218000",
-      "releaseTimestamp": "2025-07-16T00:00:00-07:00"
-    },
-    {
-      "version": "1.32.4-gke.1698000",
-      "releaseTimestamp": "2025-07-16T00:00:00-07:00"
     }
   ]
 }
