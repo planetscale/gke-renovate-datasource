@@ -17,16 +17,20 @@ var (
 	// Regex to extract version numbers from hyperlinks
 	versionRegex = regexp.MustCompile(`<a href="[^"]+">([0-9]+\.[0-9]+\.[0-9]+-gke\.[0-9]+)</a>`)
 
-	// Markers to identify available and unavailable versions in the HTML blob of
-	// each RSS feed <entry>
+	// Regex to extract a version from a single-version entry, e.g.
+	// "Version <a href="...">1.34.10-gke.1328000</a> is now available in the Stable channel."
+	singleAvailableRegex = regexp.MustCompile(`Version <a href="[^"]+">([0-9]+\.[0-9]+\.[0-9]+-gke\.[0-9]+)</a> is now available in the`)
+
+	// Markers to identify lists of available and unavailable versions in the
+	// HTML blob of each RSS feed <entry>
 	availableMarker   = "The following versions are now available in the"
 	unavailableMarker = "The following versions are no longer available in the"
 
 	// Channel RSS feed URLs
 	channelURLs = map[string]string{
-		"stable":  "https://cloud.google.com/feeds/gke-stable-channel-release-notes.xml",
-		"regular": "https://cloud.google.com/feeds/gke-regular-channel-release-notes.xml",
-		"rapid":   "https://cloud.google.com/feeds/gke-rapid-channel-release-notes.xml",
+		"stable":  "https://docs.cloud.google.com/feeds/gke-stable-channel-release-notes.xml",
+		"regular": "https://docs.cloud.google.com/feeds/gke-regular-channel-release-notes.xml",
+		"rapid":   "https://docs.cloud.google.com/feeds/gke-rapid-channel-release-notes.xml",
 	}
 )
 
@@ -77,6 +81,10 @@ func main() {
 	}
 
 	output := processEntries(feed)
+	if len(output.Releases) == 0 {
+		fmt.Fprintf(os.Stderr, "Error: no releases found in %s\n", url)
+		os.Exit(1)
+	}
 
 	file, err := os.Create(*outFile)
 	if err != nil {
@@ -99,6 +107,10 @@ func fetchFeed(url string) (*Feed, error) {
 		return nil, err
 	}
 	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("unexpected status %s from %s", resp.Status, url)
+	}
 
 	data, err := io.ReadAll(resp.Body)
 	if err != nil {
@@ -135,29 +147,22 @@ func processEntries(feed *Feed) *RenovateCustomDatasource {
 }
 
 func extractAvailableVersions(content string) []string {
-	parts := strings.Split(content, unavailableMarker)
-	if len(parts) < 1 {
-		return nil
-	}
+	var matches [][]string
 
-	availableParts := strings.Split(parts[0], availableMarker)
-	if len(availableParts) < 2 {
-		return nil
+	availableParts := strings.Split(strings.Split(content, unavailableMarker)[0], availableMarker)
+	if len(availableParts) >= 2 {
+		matches = append(matches, versionRegex.FindAllStringSubmatch(availableParts[1], -1)...)
 	}
-
-	availableSection := availableParts[1]
-	matches := versionRegex.FindAllStringSubmatch(availableSection, -1)
+	matches = append(matches, singleAvailableRegex.FindAllStringSubmatch(content, -1)...)
 
 	versions := make([]string, 0)
 	seen := make(map[string]bool)
 
 	for _, match := range matches {
-		if len(match) > 1 {
-			version := match[1]
-			if !seen[version] {
-				versions = append(versions, version)
-				seen[version] = true
-			}
+		version := match[1]
+		if !seen[version] {
+			versions = append(versions, version)
+			seen[version] = true
 		}
 	}
 
